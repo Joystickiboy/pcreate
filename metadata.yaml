@@ -1,0 +1,26 @@
+---
+author:
+    - Brian Crocoll
+title: XXX
+titlepage: true
+date: 2023-2024
+autoSectionLabels: false
+chapters: true
+numberSections: false
+chaptersDepth: 1
+sectionsDepth: 3
+toc-depth: 3
+toc-own-page: true
+lang: fr
+cref: false
+urlcolor: blue
+toc: true
+header-includes: \usepackage{graphicx}
+    \usepackage{geometry}
+    \usepackage{subcaption}
+    \usepackage{dirtytalk}
+    \usepackage[binary-units]{siunitx}
+    \graphicspath{{figs}}
+---
+
+
