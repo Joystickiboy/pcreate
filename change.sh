@@ -10,4 +10,8 @@ replace_title=$2
 sed -i "s/$search_patt/$replace_file_name/g" "Makefile"
 sed -i "s/$search_patt/$replace_title/g" "metadata.yaml"
 
+touch $1
+
+rm -rf .git/
+
 echo "Done"
